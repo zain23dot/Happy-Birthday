@@ -1,0 +1,8 @@
+body{margin:0;font-family:Arial;background:linear-gradient(135deg,#ff7fd1,#8b5cf6);color:#fff;overflow:hidden}
+.page{display:none;min-height:100vh;justify-content:center;align-items:center;flex-direction:column;text-align:center;padding:20px}
+.active{display:flex}
+button{padding:12px 24px;border:none;border-radius:30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;max-width:600px}
+.card{background:rgba(255,255,255,.15);padding:30px;border-radius:20px}
+#slider{width:280px;height:400px;object-fit:cover;border-radius:20px}
+#gift{font-size:100px;cursor:pointer}
